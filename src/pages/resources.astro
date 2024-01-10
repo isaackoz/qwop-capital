@@ -1,0 +1,31 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Resources | QWOP CAPITAL">
+  <main class="flex items-center flex-col w-full max-w-7xl mx-auto flex-1">
+    <div class="text-center mt-12">
+      <h1 class="text-5xl font-bold">Learning Resources</h1>
+      <span class="mt-2 block text-lg"
+        >Trading can be tough on beginners. QWOP Capital is here to help with
+        <span class="font-semibold italic">Intro To Trading.</span></span
+      >
+    </div>
+    <div class="text-center max-w-2xl mt-10">
+      <a href="/trading.pdf" target="_blank">
+        <button
+          class="bg-black p-2 text-white rounded-lg shadow-lg hover:scale-[1.01] transition"
+        >
+          Click here to download the PDF</button
+        >
+      </a>
+
+      <p class="mt-4">
+        By downloading the PDF above, you agree to the <a
+          href="/terms"
+          class="underline text-blue-400">terms</a
+        >
+      </p>
+    </div>
+  </main>
+</Layout>
